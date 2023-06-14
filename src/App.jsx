@@ -2,6 +2,7 @@ import HeroVideo from "./components/HeroVideo"
 import Section2 from "./components/Section2"
 import Section3 from "./components/Section3"
 import Section4 from "./components/Section4"
+import Coros from "./components/Coro"
 
 function App() {
 
@@ -9,6 +10,9 @@ function App() {
     <div className="max-w-full overflow-x-hidden bg-gray-50 text-gray-800 scroll-smooth ">
     {/* Hero Video section */}
       <HeroVideo />
+
+      {/* Corousel trial */}
+      <Coros />
     
     {/* Section 2 */}
       <Section2 />
