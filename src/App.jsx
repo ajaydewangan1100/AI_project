@@ -1,8 +1,8 @@
 import HeroVideo from "./components/HeroVideo"
-import Section2 from "./components/Section2"
+import Section2 from "./components/TopFeaturesCard"
+// import Section2 from "./components/Section2"
 import Section3 from "./components/Section3"
 import Section4 from "./components/Section4"
-import Coros from "./components/Coro"
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
       <HeroVideo />
 
       {/* Corousel trial */}
-      <Coros />
+      {/* <Coros />  */}
     
     {/* Section 2 */}
       <Section2 />
@@ -23,10 +23,8 @@ function App() {
 
      {/* Section 4 */}
      <Section4 />
-      <section className="py-5 px-10">
-        <h1 className="underline">AI Start</h1>
-      </section>
-      <h1>Vite + React</h1>
+
+      
     </div>
   )
 }
