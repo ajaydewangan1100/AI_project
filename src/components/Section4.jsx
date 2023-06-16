@@ -33,11 +33,13 @@ const Section4 = () => {
     })
        
   return (
-    <div className='text-center mx-5 my-20 mx-14 hover:shadow-2xl duration-[300ms] flex flex-col items-center p-5 rounded-2xl '>
-        <h1 className=' bold text-4xl border inline m-auto rounded-2xl px-4 py-2 my-10  '>Reviews from AI Artists</h1>
+    <div className='w-full bg-gray-200 py-20'>
+        <div className='text-center bg-gray-50 mx-10 hover:shadow-2xl duration-[300ms] flex flex-col items-center p-5 py-10 rounded-2xl '>
+            <h1 className=' bold text-4xl border inline m-auto rounded-2xl px-4 py-2 mb-10  '>Reviews from AI Artists</h1>
 
-        <div className='w-full flex flex-row flex-wrap justify-evenly gap-5  '>
-            {listAllReviews}
+            <div className='w-full flex flex-row flex-wrap justify-evenly gap-5  '>
+                {listAllReviews}
+            </div>
         </div>
     </div>
   )

@@ -7,7 +7,7 @@ import Section4 from "./components/Section4"
 function App() {
 
   return (
-    <div className="max-w-full overflow-x-hidden bg-gray-50 text-gray-800 scroll-smooth ">
+    <div className="max-w-full overflow-x-hidden text-gray-800 scroll-smooth ">
     {/* Hero Video section */}
       <HeroVideo />
 

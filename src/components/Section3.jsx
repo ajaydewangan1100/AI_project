@@ -39,8 +39,8 @@ const Section3 = () => {
 
     // original return
   return (
-    <div  className='text-center mx-5 my-20 mx-10'>
-        <h1 className=' bold text-4xl border inline m-auto rounded-2xl px-4 py-2 m-10 '>Explore More AI's</h1>
+    <div  className='text-center bg-gray-100 py-20'>
+        <h1 className=' bold text-4xl border inline m-auto rounded-2xl px-4 py-2 my-10 '>Explore More AI's</h1>
         <div className='w-full flex flex-row flex-wrap gap-5 justify-center pt-10 '>
             {list}
         </div>

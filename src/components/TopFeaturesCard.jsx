@@ -82,7 +82,7 @@ const Section2 = () => {
   }, []);
 
   return (
-    <div className="carousel my-12 mx-auto px-2">
+    <div className="carousel mx-auto px-2 bg-gray-50 py-20">
       <h2 className="text-4xl leading-8 font-semibold mb-5 text-slate-700 text-center">
       Top Features
       </h2>
