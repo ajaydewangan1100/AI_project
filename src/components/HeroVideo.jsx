@@ -15,12 +15,12 @@ const HeroVideo = () => {
         
       </div>
 
-      <div className='relative h-[100vh] border z-30 text-center p-[50px] '>
-          <form className='  bottom-0 left-[50%] origin-center p-[3px] border border-gray-500 border-opacity-20 rounded-2xl w-min mx-auto  '>
+      <div className='absolute bottom-0 w-full left-0 h-[100vh] text-center p-[50px] '>
+          <form className='relative top-[60vh] origin-center w-full p-[3px]  border-opacity-10 rounded-2xl '>
             {/* I am here */}
             <input value={searchText} name='search' onChange={(e)=>{
               setSearchText(e.target.value)}} 
-              className='  p-2 px-3 w-[30vw] font-2xl text-gray-800 rounded-xl opacity-20 focus:opacity-70 bg-gray-200 focus:bg-gray-100 '  />
+              className='p-2 px-3 min-w-[220px] w-[30vw] text-xl font-semibold text-gray-800 rounded-xl opacity-20 focus:opacity-70 bg-gray-200 focus:bg-gray-100'  />
             <button type="submit" class="" />
           </form>
         </div>
