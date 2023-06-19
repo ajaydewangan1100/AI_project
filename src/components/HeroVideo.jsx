@@ -20,7 +20,7 @@ const HeroVideo = () => {
             {/* I am here */}
             <input value={searchText} name='search' onChange={(e)=>{
               setSearchText(e.target.value)}} 
-              className='p-2 px-3 min-w-[220px] w-[30vw] text-xl font-semibold text-gray-800 rounded-xl opacity-20 focus:opacity-70 bg-gray-200 focus:bg-gray-100'  />
+              className='p-2 px-5 min-w-[220px] w-[30vw] text-xl font-semibold text-gray-800 rounded-3xl opacity-20 focus:opacity-70 bg-gray-200 focus:bg-gray-100 focus:outline-none'  />
             <button type="submit" class="" />
           </form>
         </div>
