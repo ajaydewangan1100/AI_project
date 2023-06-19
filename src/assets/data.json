@@ -1,0 +1,45 @@
+{
+    "resources": [
+        {
+            "img":"src/assets/yt_logo.png",
+            "name":"Video AI",
+            "link":"#"
+          },
+          {
+            "img":"src/assets/insta.jpg",
+            "name":"Insta Reels AI",
+            "link":"#"
+          },
+          {
+            "img":"src/assets/ai_img.jpg",
+            "name":"Chat AI",
+            "link":"#"
+          },
+          {
+            "img":"src/assets/in_tech.png",
+            "name":"Travel AI",
+            "link":"#"
+          },
+          {
+            "img":"src/assets/img2.png",
+            "name":"Editor AI",
+            "link":"#"
+          },
+          {
+            "img":"src/assets/Entertainment.jpg",
+            "name":"Entertainment AI",
+            "link":"#"
+          },
+          {
+            "img":"src/assets/img2.png",
+            "name":"Editor AI",
+            "link":"#"
+          },
+          {
+            "img":"src/assets/Entertainment.jpg",
+            "name":"Entertainment AI",
+            "link":"#"
+          }
+    ]
+  }
+  
