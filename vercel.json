@@ -1,0 +1,10 @@
+{
+    "build": {
+      "optimize": {
+        "images": false,
+        "fonts": false,
+        "styles": false
+      }
+    }
+  }
+  

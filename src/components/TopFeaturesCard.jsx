@@ -1,35 +1,42 @@
 import { useState, useRef, useEffect } from 'react';
+import VideoAI from "../assets/yt_logo.png";
+import InstaAI from "../assets/insta.jpg";
+import ChatAI from "../assets/ai_img.jpg";
+import IntechAI from "../assets/in_tech.png";
+import EditorAI from "../assets/img2.png";
+import EntertainmentAI from "../assets/Entertainment.jpg";
 
 const Section2 = () => {
-  // Original data here --------------------
+
+  //------------------------- Original data array here ---------------------------------------
   const TopFeatursAi = [
     {
-      img:"src/assets/yt_logo.png",
+      img:VideoAI,
       name:"Video AI",
       link:"#"
     },
     {
-      img:"src/assets/insta.jpg",
+      img:InstaAI,
       name:"Insta Reels AI",
       link:"#"
     },
     {
-      img:"src/assets/ai_img.jpg",
+      img:ChatAI,
       name:"Chat AI",
       link:"#"
     },
     {
-      img:"src/assets/in_tech.png",
+      img:IntechAI,
       name:"Travel AI",
       link:"#"
     },
     {
-      img:"src/assets/img2.png",
+      img:EditorAI,
       name:"Editor AI",
       link:"#"
     },
     {
-      img:"src/assets/Entertainment.jpg",
+      img:EntertainmentAI,
       name:"Entertainment AI",
       link:"#"
     }
