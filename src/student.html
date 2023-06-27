@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+fieldset{
+height: 40vh;
+width: 40vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+legend{
+text-align: center;
+font-weight: 800;
+font-size: 20px;
+color: red;
+}
+.container2{
+display: flex;
+width: 20vw;
+justify-content: space-evenly;
+margin: 10px;
+}
+input{
+border-radius: 5px;
+border: none;
+background-color: rgb(215, 224, 224);
+width: 30vw;
+height: 4vh;
+}
+button{
+padding: 5px 10px;
+border-radius: 5px;
+border: none;
+background-color: #808080;
+font-size: 18px;
+}
+
+
+</style>
+</head>
+<body>
+<fieldset>
+
+<legend>Add items</legend>
+
+<div class="container1">
+<input type="text" name="" id="item">
+</div>
+<div class="container2">
+<button id="add">add</button>
+<button id="view">view cart</button>
+</div>
+
+</fieldset>
+
+
+<script>
+const add = document.getElementById("add");
+const view = document.getElementById("view");
+let item = document.getElementById("item");
+let cart = [];
+
+add.addEventListener("click", ()=>{
+if (item.value === ""){
+alert("write item name first");
+}
+else{
+cart.push(item.value);
+console.log(cart);
+}
+console.log(item.value);
+});
+</script>
+</body>
+</html> 
